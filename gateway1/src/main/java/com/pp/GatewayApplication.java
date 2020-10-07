@@ -32,7 +32,7 @@ public class GatewayApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         // 动态路由
-        dynamicRouteService.dyRoutes();
+//        dynamicRouteService.dyRoutes();
         // 动态api分组管理
         sentinelService.apiDefinitionHandler();
         // 动态限流

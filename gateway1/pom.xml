@@ -11,4 +11,10 @@
 
     <artifactId>gateway1</artifactId>
     <description>通用网关</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
 </project>
